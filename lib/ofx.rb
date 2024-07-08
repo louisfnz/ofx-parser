@@ -76,7 +76,7 @@ module OfxParser
   end
 
   class Account
-    attr_accessor :number, :statement, :transaction_uid, :routing_number
+    attr_accessor :number, :statement, :transaction_uid, :routing_number, :branch_number
   end
 
   class BankAccount < Account
